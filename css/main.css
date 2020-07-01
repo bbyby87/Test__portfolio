@@ -176,7 +176,7 @@ body .portfolio .container-filter div {
 
 .title {
   position: absolute;
-  top: 10px;
+  top: 0px;
   left: 0;  
   right: 0; 
   text-align: center;  
@@ -184,9 +184,13 @@ body .portfolio .container-filter div {
   font-size: 20px;  
   font-weight: 900;
   z-index: 99;
-  color: #fff;
-  -webkit-text-stroke: 1px blue;
-  -webkit-text-fill-color: #fff;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: #ffffff;
+  text-shadow: -1px -1px #000000,
+	-1px 1px #000000,
+	1px -1px #000000,
+	1px 1px #000000;
 }
 
 body .portfolio .container-filter div .fil {
